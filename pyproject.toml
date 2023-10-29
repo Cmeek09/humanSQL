@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "humansql"
+version = "0.1.0"
+description = ""
+authors = ["Cmeek09 <cnmeek@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.28.1"
+psycopg2-binary = "^2.9.9"
+argparse = "^1.4.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
