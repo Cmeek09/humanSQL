@@ -7,8 +7,8 @@
         # call db_manager.run_sql() with parsed sql
 
 import os
-from postgres_da_ai_agent.modules.db import PostgresManager
-from postgres_da_ai_agent.modules import llm
+from modules.db import PostgresManager
+from modules import llm
 import dotenv
 import argparse
 

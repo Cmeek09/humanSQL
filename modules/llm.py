@@ -43,7 +43,7 @@ def response_parser(response: Dict[str, Any]):
 # ------------------ content generators ------------------
 
 
-def prompt(prompt: str, model: str = "gpt-4") -> str:
+def prompt(prompt: str, model: str = "gpt-3.5") -> str:
     # validate the openai api key - if it's not valid, raise an error
     if not openai.api_key:
         sys.exit(
