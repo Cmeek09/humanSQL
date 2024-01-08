@@ -1,3 +1,7 @@
+# generated from a chat prompt to flush out commnads to handle SQL queries
+# this is the worker class
+
+
 import sys
 from dotenv import load_dotenv
 import os
